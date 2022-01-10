@@ -1,0 +1,84 @@
+{
+  "name": "ilemuelfigueira-template-react",
+  "version": "1.0.1",
+  "license": "UNLICENSED",
+  "private": false,
+  "dependencies": {
+    "@material-ui/core": "4.12.3",
+    "@testing-library/jest-dom": "5.11.4",
+    "@testing-library/react": "11.1.0",
+    "@testing-library/user-event": "12.1.10",
+    "@types/jest": "26.0.15",
+    "@types/node": "12.0.0",
+    "@types/react": "17.0.11",
+    "@types/react-dom": "17.0.0",
+    "axios": "0.21.1",
+    "ccxt": "1.54.61",
+    "classnames": "2.3.1",
+    "clsx": "1.1.1",
+    "firebase": "8.6.8",
+    "node-sass": "5.0.0",
+    "querystring": "0.2.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-hot-toast": "2.1.0",
+    "react-icons": "4.2.0",
+    "react-router-dom": "5.2.0",
+    "react-scripts": "4.0.3",
+    "sass-vars-to-js-loader": "2.1",
+    "styled-components": "5.3.0",
+    "typescript": "4.1.2",
+    "web-vitals": "1.0.1"
+  },
+  "lint-staged": {
+    "*.ts(x)": [
+      "prettier --write",
+      "eslint src/ --fix"
+    ]
+  },
+  "scripts": {
+    "dev": "npx react-scripts start .env.local",
+    "start": "npx react-scripts start .env.local",
+    "build": "npx react-scripts build",
+    "test": "npx react-scripts test",
+    "eject": "npx react-scripts eject",
+    "prepare": "husky install",
+    "lint": "eslint src/ --fix"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@commitlint/cli": "12.1.4",
+    "@commitlint/config-conventional": "12.1.4",
+    "@types/react-router-dom": "5.1.7",
+    "@types/styled-components": "5.1.12",
+    "@typescript-eslint/eslint-plugin": "4.28.0",
+    "@typescript-eslint/parser": "4.28.0",
+    "eslint": "7.11.0",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-import-helpers": "1.1.0",
+    "eslint-plugin-prettier": "3.4.0",
+    "eslint-plugin-react": "7.24.0",
+    "husky": "7.0.1",
+    "lint-staged": "11.0.0",
+    "prettier": "2.3.1",
+    "prettier-eslint": "9.0.1",
+    "prettier-eslint-cli": "5.0.0"
+  }
+}
