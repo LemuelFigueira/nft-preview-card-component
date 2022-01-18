@@ -1,4 +1,4 @@
-import { createTheme } from "@material-ui/core";
+import { createTheme } from "@mui/material/styles";
 
 import vars from "styles/_variables-mui";
 
@@ -29,32 +29,7 @@ const Default = createTheme({
   shape: {
     borderRadius: 8,
   },
-  overrides: {
-    MuiButton: {
-      text: {
-        paddingLeft: "14px",
-        paddingRight: "14px",
-      },
-      containedSizeSmall: {
-        paddingLeft: "14px",
-        paddingRight: "14px",
-      },
-      root: {
-        textTransform: "none",
-        fontWeight: "normal",
-      },
-    },
-    MuiTooltip: {
-      tooltip: {
-        backgroundColor: vars.second,
-        padding: "8px 16px",
-        fontSize: "13px",
-      },
-      arrow: {
-        color: vars.second,
-      },
-    },
-  },
+  
 });
 
 const GenericUser = createTheme({
@@ -83,32 +58,6 @@ const GenericUser = createTheme({
   },
   shape: {
     borderRadius: 8,
-  },
-  overrides: {
-    MuiButton: {
-      text: {
-        paddingLeft: "14px",
-        paddingRight: "14px",
-      },
-      containedSizeSmall: {
-        paddingLeft: "14px",
-        paddingRight: "14px",
-      },
-      root: {
-        textTransform: "none",
-        fontWeight: "normal",
-      },
-    },
-    MuiTooltip: {
-      tooltip: {
-        backgroundColor: vars.second,
-        padding: "8px 16px",
-        fontSize: "13px",
-      },
-      arrow: {
-        color: vars.second,
-      },
-    },
   },
 });
 

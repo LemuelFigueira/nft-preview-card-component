@@ -1,7 +1,6 @@
 import { Route } from "react-router-dom";
 
-import { ThemeProvider } from "@material-ui/core";
-
+import { ThemeProvider } from "@mui/material/styles";
 import { defaultTheme } from "styles/theme";
 
 import { Home } from "pages/Home";
