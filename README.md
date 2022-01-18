@@ -1,4 +1,4 @@
-# `Card com tilt-effect`
+# `Card`
 
 **Executar os seguintes comandos**
 

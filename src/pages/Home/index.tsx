@@ -11,7 +11,6 @@ export function Home() {
         footerDsc="Jules Wyvern"
         footerImgSrc={img}
         subTitle="Our Equilibrium collection promotes balance and calm."
-        tilt
         time="3 days left"
         title="Equilibrium #3429"
         value="R$ 0,50"
